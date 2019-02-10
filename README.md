@@ -1,23 +1,22 @@
 Documentação
 
 Ferramentas usadas para fazer o projeto
-•	PHP (NetBeans)
-•	MySQL (Workbench)
-•	Postman
-•	PHPUnit
-•	XAMPP
+ - PHP (NetBeans)
+ - MySQL (Workbench)
+ - Postman
+ - PHPUnit
+ - XAMPP
 
 Configurando o número da porta 80 do Apache no Xampp
-•	Abra o painel do Xampp e clique no botão config do Apache;
-•	Escolha o arquivo chamado httpd.conf. Ele possui todos os parâmetros de funcionamento do Apache;
-•	Aperte as teclas CTRF+F e pesquise pela palavra Listen 80;
-•	Adicione mais um número ao final desse parâmetro ficando: Listen 8080;
-•	Pesquise outra palavra chave chamada ServerName e adicione o 80 no localhost:8080;
-•	Salve e feche o arquivo;
-•	Volte ao Dashboard e clique no ícone Config;
-•	Depois vá em Service and Port Settings;
-•	Adicione o 8080 no Main Port;
-
+ - Abra o painel do Xampp e clique no botão config do Apache;
+ - Escolha o arquivo chamado httpd.conf. Ele possui todos os parâmetros de funcionamento do Apache;
+ - Aperte as teclas CTRF+F e pesquise pela palavra Listen 80;
+ - Adicione mais um número ao final desse parâmetro ficando: Listen 8080;
+ - Pesquise outra palavra chave chamada ServerName e adicione o 80 no localhost:8080;
+ - Salve e feche o arquivo;
+ - Volte ao Dashboard e clique no ícone Config;
+ - Depois vá em Service and Port Settings;
+ - Adicione o 8080 no Main Port;
 
 Criando o Banco
 Para montar o banco eu criei o seguinte script:
