@@ -23,11 +23,11 @@ Para montar o banco eu criei o seguinte script:
 CREATE DATABASE MeuWebAPI;
 
 CREATE TABLE ENDERECO(
-	ID INT PRIMARY KEY AUTO_INCREMENT,
-	PAIS VARCHAR(25) NULL,
-ESTADO VARCHAR(2) NULL,
-	CIDADE VARCHAR(30) NULL,
-    	LOGRADOURO VARCHAR(50) NULL
+   ID INT PRIMARY KEY AUTO_INCREMENT,
+   PAIS VARCHAR(25) NULL,
+   ESTADO VARCHAR(2) NULL,
+   CIDADE VARCHAR(30) NULL,
+   LOGRADOURO VARCHAR(50) NULL
 );
 
 
@@ -37,8 +37,11 @@ INSERT INTO ENDERECO VALUES (DEFAULT,'BRASIL','SP','ITAPECERICA DA SERRA','RUA C
 
 Fazendo as requisições 
 GET: http://localhost:8080/MeuWebApi/EnderecoAPI.php
+
 POST: http://localhost:8080/MeuWebApi/EnderecoAPI.php
+
 Depois clique na aba Body do Postman, vai em raw, depois vai onde está escrito (normalmente está escrito) text e muda para JSON (application/json)
+
 Digite o JSON a seguir:
 {
 	"PAIS": "VALOR",
@@ -48,7 +51,9 @@ Digite o JSON a seguir:
 }
 
 PUT: http://localhost:8080/MeuWebApi/EnderecoAPI.php
+
 Faz a mesma configuração do POST
+
 Digite o seguinte JSON:
 {
 	"ID": "VALOR",
@@ -58,10 +63,10 @@ Digite o seguinte JSON:
 	"LOGRADOURO": " VALOR"
 }
 
-
-
 DELETE: http://localhost:8080/MeuWebApi/EnderecoAPI.php
+
 Faz a mesma configuração do POST
+
 Digite o seguinte JSON:
 {
 	"ID": "VALOR"
